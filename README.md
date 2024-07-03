@@ -51,9 +51,12 @@ Data Cleaning and Formatting
 ### Exploratory Data Analysis
 Research Questions and Insights
 - Are There Observable Patterns or Disparities in Sales Based on Gender?
+  ![RQ1](https://github.com/Lapadonic/CUSTOMER-AND-SALES-ANALYSIS/assets/142020905/8d51cd6c-3f8e-45cf-8647-de14f8af53c0)
+  
 - How Does the Distribution of Customers Based on Marital Status Impact on Sales?
 - Does The SalesAmount Exhibit Any Seasonality or Trend Over Time?
 - How does the 'SalesAmount' vary across different 'SalesTerritories'?
+
 - Do Specific Occupation Demonstrate a Significant Impact on Sales and Are There Notable Variations in Sales Based on Educational Backgrounds?
 - Does the Age of Customers Influence Their Purchasing Behavior or Exhibit any Correlation With Sales Trends?
 
