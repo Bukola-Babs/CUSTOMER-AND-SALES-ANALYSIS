@@ -35,8 +35,11 @@ from pyspark.ml.feature import VectorAssembler
 from pyspark.ml.regression import LinearRegression
 ```
 
+### Importing Data
+
+
 ### Data Cleaning/Preparation
-Data Loading and Inspection
+Data  Inspection
 Joining the Datasets for Insights and Analysis
 - Joined DimProduct and FactInternetSales datasets using 'ProductKey,' creating a data frame named df_24.
 - Joined DimCustomer dataset 'df3' to df_24 using 'Customer key,' creating a new dataframe df_234.
