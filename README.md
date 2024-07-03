@@ -52,13 +52,18 @@ Data Cleaning and Formatting
 Research Questions and Insights
 - Are There Observable Patterns or Disparities in Sales Based on Gender?
   
-Checking the distribution of customer based on Gender
-Grouping the DataFrame by 'Gender' and calculating the count of each gender
+##### Checking the distribution of customer based on Gender
+##### Grouping the DataFrame by 'Gender' and calculating the count of each gender
+##### Calculate total sales amount based on gender
+##### Display the PySpark DataFrame
 ```python
 gender_distribution = df_234.groupBy('Gender').agg(F.count('Gender').alias('count'))
+gender_sales_data = df_234.select('Gender', 'SalesAmount')
+gender_sales_trends = gender_sales_data.groupBy('Gender').agg(F.sum('SalesAmount').alias('TotalSales'))
 gender_distribution.show()
+print("Gender Sales Trends:")
+gender_sales_trends.show()
 ```
-
   ![RQ1](https://github.com/Lapadonic/CUSTOMER-AND-SALES-ANALYSIS/assets/142020905/8d51cd6c-3f8e-45cf-8647-de14f8af53c0)
   
 - How Does the Distribution of Customers Based on Marital Status Impact on Sales?
