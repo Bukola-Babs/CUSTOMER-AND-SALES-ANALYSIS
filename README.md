@@ -51,9 +51,18 @@ Data Cleaning and Formatting
 ### Exploratory Data Analysis
 Research Questions and Insights
 - Are There Observable Patterns or Disparities in Sales Based on Gender?
+  
+Checking the distribution of customer based on Gender
+Grouping the DataFrame by 'Gender' and calculating the count of each gender
+```python
+gender_distribution = df_234.groupBy('Gender').agg(F.count('Gender').alias('count'))
+gender_distribution.show()
+```
+
   ![RQ1](https://github.com/Lapadonic/CUSTOMER-AND-SALES-ANALYSIS/assets/142020905/8d51cd6c-3f8e-45cf-8647-de14f8af53c0)
   
 - How Does the Distribution of Customers Based on Marital Status Impact on Sales?
+  
 - Does The SalesAmount Exhibit Any Seasonality or Trend Over Time?
 - How does the 'SalesAmount' vary across different 'SalesTerritories'?
 
